@@ -1,0 +1,14 @@
+{
+  "name": "node-template",
+  "version": "0.0.1",
+  "description": "A template for node and typescript projects using pnpm workspaces, eslint.",
+  "keywords": [
+    "template",
+    "node",
+    "typescript",
+    "eslint"
+  ],
+  "author": "Eric Hosick <erichosick@gmail.com>",
+  "license": "ISC",
+  "scripts": {}
+}

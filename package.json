@@ -10,5 +10,13 @@
   ],
   "author": "Eric Hosick <erichosick@gmail.com>",
   "license": "ISC",
-  "scripts": {}
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "engines": {
+    "npm": "Use pnpm instead of npm."
+  },
+  "devDependencies": {
+    "only-allow": "^1.2.1"
+  }
 }

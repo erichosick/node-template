@@ -11,13 +11,16 @@
   "author": "Eric Hosick <erichosick@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "eslint": "ESLINT_USE_FLAT_CONFIG=true npx eslint --config eslint.config.mjs ."
   },
   "engines": {
     "npm": "Use pnpm instead of npm."
   },
   "devDependencies": {
     "@types/node": "^20.8.9",
+    "eslint": "^8.56.0",
+    "eslint-plugin-jsonc": "^2.11.2",
     "only-allow": "^1.2.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
